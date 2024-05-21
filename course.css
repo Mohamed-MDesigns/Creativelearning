@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.main-content{
+    width: 100%;
+}
+.page-title h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.btn-normal{
+    margin-top: 16px;
+    border: none;
+    background: #0b40b3;
+    padding: 8px 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+.btn-normal1{
+    margin-top: 16px;
+    border: none;
+    background: #0b40b3;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-delete{
+    border: none;
+    background: rgb(211, 7, 7);
+    padding: 8px 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+}
+
+
+
+.card {
+    overflow: hidden;
+    width: 25rem;
+    border: 0.2px #858585 solid;
+    border-radius: 5px;
+}
+
+.card img.card-img-top {
+    width: 100%; 
+}
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    padding: 8px;
+}
+
+.names-container {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px; 
+}
+.names-container h6{
+    color: #22017c;
+    font-size: 14px;
+}
+.names-container h7{
+    font-size: 12px;
+    
+}
+.right-text {
+    color: rgb(6, 123, 84);
+    margin-left: auto; 
+    padding-right: 4px; 
+}
+
+.btn-bg {
+    background-color: #20128b;
+    color: #fff;
+    width: 100%; 
+    padding: 10px 0;
+    border: none;
+    display: flex; justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 16px;
+    border-radius: 2px;
+    
+    
+}
+.card-body{
+    padding: 8px;
+    
+}
+.btn-bg:hover {
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.courses-cards{
+    margin-top: 32px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
